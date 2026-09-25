@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="960" height="600" fill="#ffffff"/>
+
+  <!-- Приватная сеть -->
+  <rect x="20" y="20" width="920" height="440" rx="16" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 5"/>
+  <text x="44" y="50" font-size="15" font-weight="600" fill="#475569">Приватная сеть Tailscale · ноутбук · сервер · телефон — снаружи сервисы не видны</text>
+
+  <!-- Контур разработки -->
+  <rect x="36" y="72" width="434" height="150" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="54" y="102" font-size="17" font-weight="700" fill="#312e81">Контур разработки · ноутбук</text>
+  <text x="54" y="132" font-size="14" fill="#1e293b">Claude Code, OpenCode — AI-агенты для кода</text>
+  <text x="54" y="158" font-size="14" fill="#1e293b">Суб-агенты: кодер, ревьюер, тестировщик, отладчик</text>
+  <text x="54" y="184" font-size="14" fill="#1e293b">Конвейер: спецификация → код → ревью → тесты</text>
+  <text x="54" y="206" font-size="13" fill="#64748b">автономные ночные прогоны</text>
+
+  <!-- Контур ассистентов -->
+  <rect x="490" y="72" width="434" height="150" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="508" y="102" font-size="17" font-weight="700" fill="#064e3b">Контур ассистентов · сервер, 24/7</text>
+  <text x="508" y="132" font-size="14" fill="#1e293b">Hermes — персональный AI-ассистент в Telegram</text>
+  <text x="508" y="158" font-size="14" fill="#1e293b">Заметки и файлы · поиск · расписания · голос</text>
+  <text x="508" y="184" font-size="14" fill="#1e293b">Ещё 2 пользователя: свой ключ, бюджет, данные</text>
+  <text x="508" y="206" font-size="13" fill="#64748b">изолированы друг от друга и от разработки</text>
+
+  <!-- Стрелки к общему слою -->
+  <line x1="255" y1="222" x2="380" y2="282" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="705" y1="222" x2="580" y2="282" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Общий слой -->
+  <rect x="190" y="285" width="580" height="150" rx="12" fill="#fff7ed" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="210" y="315" font-size="17" font-weight="700" fill="#7c2d12">Общий слой · сервер</text>
+  <text x="210" y="345" font-size="14" fill="#1e293b"><tspan font-weight="700">LiteLLM</tspan> — шлюз моделей: роли, бюджеты, переключение при сбоях</text>
+  <text x="210" y="371" font-size="14" fill="#1e293b"><tspan font-weight="700">Langfuse</tspan> — журнал каждого вызова и его стоимость</text>
+  <text x="210" y="397" font-size="14" fill="#1e293b"><tspan font-weight="700">SearXNG</tspan> — собственный поиск · <tspan font-weight="700">PostgreSQL</tspan>, <tspan font-weight="700">Redis</tspan></text>
+  <text x="210" y="421" font-size="13" fill="#64748b">~15 сервисов в Docker, изолированные сети</text>
+
+  <!-- Провайдеры -->
+  <line x1="480" y1="435" x2="480" y2="498" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="250" y="500" width="460" height="76" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+  <text x="480" y="530" font-size="16" font-weight="700" fill="#1e293b" text-anchor="middle">Провайдеры моделей</text>
+  <text x="480" y="556" font-size="14" fill="#475569" text-anchor="middle">Claude, Gemini, DeepSeek и другие · несколько провайдеров</text>
+</svg>

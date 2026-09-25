@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="960" height="330" fill="#ffffff"/>
+  <text x="30" y="40" font-size="20" font-weight="700" fill="#0f172a">Надёжность: три линии защиты</text>
+
+  <!-- 1 -->
+  <rect x="30" y="70" width="270" height="230" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="50" y="102" font-size="13" font-weight="700" fill="#3b82f6">1 · ЗАМЕТИТЬ</text>
+  <text x="50" y="128" font-size="17" font-weight="700" fill="#1e3a8a">Мониторинг</text>
+  <text x="50" y="160" font-size="14" fill="#1e293b">14 мониторов, оповещение</text>
+  <text x="50" y="180" font-size="14" fill="#1e293b">на телефон</text>
+  <text x="50" y="212" font-size="14" fill="#1e293b">«Зелёный» — только если</text>
+  <text x="50" y="232" font-size="14" fill="#1e293b">компонент реально отвечает,</text>
+  <text x="50" y="252" font-size="14" fill="#1e293b">а не просто запущен</text>
+  <line x1="300" y1="185" x2="343" y2="185" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- 2 -->
+  <rect x="345" y="70" width="270" height="230" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="365" y="102" font-size="13" font-weight="700" fill="#10b981">2 · ПОЧИНИТЬСЯ САМОЙ</text>
+  <text x="365" y="128" font-size="17" font-weight="700" fill="#064e3b">Автовосстановление</text>
+  <text x="365" y="160" font-size="14" fill="#1e293b">Упавший сервис</text>
+  <text x="365" y="180" font-size="14" fill="#1e293b">перезапускается сам</text>
+  <text x="365" y="212" font-size="14" fill="#1e293b">Отдельный сторож следит</text>
+  <text x="365" y="232" font-size="14" fill="#1e293b">за шлюзом моделей</text>
+  <text x="365" y="264" font-size="14" fill="#1e293b">Сбой одного сервиса</text>
+  <text x="365" y="284" font-size="14" fill="#1e293b">не валит остальные</text>
+  <line x1="615" y1="185" x2="658" y2="185" stroke="#64748b" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- 3 -->
+  <rect x="660" y="70" width="270" height="230" rx="12" fill="#fff7ed" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="680" y="102" font-size="13" font-weight="700" fill="#d97706">3 · ПОДНЯТЬ С НУЛЯ</text>
+  <text x="680" y="128" font-size="17" font-weight="700" fill="#7c2d12">Резервные копии</text>
+  <text x="680" y="160" font-size="14" fill="#1e293b">Три независимых уровня:</text>
+  <text x="680" y="184" font-size="14" fill="#1e293b">• конфигурация — в git</text>
+  <text x="680" y="206" font-size="14" fill="#1e293b">• данные — шифрованный restic</text>
+  <text x="680" y="228" font-size="14" fill="#1e293b">• снимки сервера у хостинга</text>
+  <text x="680" y="260" font-size="14" fill="#1e293b">Пошаговая инструкция</text>
+  <text x="680" y="280" font-size="14" fill="#1e293b">восстановления системы</text>
+</svg>
